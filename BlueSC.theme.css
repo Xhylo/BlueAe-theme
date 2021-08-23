@@ -1,0 +1,204 @@
+@import url('https://xhylo.github.io/BetterSettings/BetterSettings.css');
+@import url(https://ghostmander.github.io/discordfont/DiscordFont.css);
+
+/* ---- Discord Variables ---- */
+.theme-dark { /* Dark Mode */
+
+  /*  Header Color  */
+  --header-primary: #fff;
+  --header-secondary: #b9bbbe;
+
+  /*  Text Color  */
+  --text-normal: #ffffff;
+  --text-muted: #2f5392;
+  --interactive-normal: #6f738e;
+  --interactive-hover: #a6aac5;
+  --interactive-active: #aeb4cf;
+  --interactive-muted: #484a57;
+
+  /* Background Color */
+  --background-primary: #1a1b26;
+  --background-secondary: #171722;
+  --background-secondary-alt: #13131a;
+  --background-tertiary: #16161e;
+  --background-tertiary-alt: #13131a;
+  --background-accent: #434461;
+  --background-floating: #161620;
+  --background-modifier-hover: #212331c0;
+  --background-modifier-active: #282a3680;
+  --background-modifier-selected: #24263171;
+  --background-modifier-accent: #21212c;
+  --background-mentioned: #252836;
+  --border-mentioned: #474c64;
+  --background-mentioned-hover: #2f3344;
+  --accent-color: #365aaa;
+
+  /* Folder Color */
+  --folder-color: #272a36d0;
+  --folder-color-light: #2f3342d0;
+
+  /* Input Box Color */
+  --input-box-bg: #14141b;
+  --input-box-border: #0f0f14;
+  --input-box-border-focus: #1b1c26;
+
+  /* Scrollbars Color */
+  --scrollbar-thin-thumb: transparent;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #2b2b46af;
+  --scrollbar-auto-thumb-hover: #27273d85;
+  --scrollbar-auto-track: transparent;
+  --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
+  --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
+
+  /* Chat Box Color */
+  --channeltextarea-background: var(--background-secondary);
+  --channeltextarea-background-hover: var(--background-tertiary);
+}
+
+.theme-light { /* Light Mode */
+
+  /*  Header Color  */
+  --header-primary: #1c1c1d;
+  --header-secondary: #4f5660;
+
+  /*  Text Color  */
+  --text-normal: #2e4862;
+  --text-muted: #747f8d;
+  --interactive-normal: #4c505e;
+  --interactive-hover: #404350;
+  --interactive-active: #373a44;
+  --interactive-muted: #77797c;
+
+  /* Background Color */
+  --background-primary: #d5d6db;
+  --background-secondary: #cecfd4;
+  --background-secondary-alt: #b6b7bd;
+  --background-tertiary: #c5c6cc;
+  --background-tertiary-alt: #bbbbc2;
+  --background-accent: #9ca3bb;
+  --background-floating: #c2c2c9;
+  --background-mentioned: #c4c7da;
+  --background-modifier-hover: #2c2a2a25;
+  --background-modifier-active: #5a525229;
+  --background-modifier-selected: #555e693d;
+  --background-modifier-accent: #06060714;
+  --border-mentioned: #a9afcf;
+  --background-mentioned-hover: #cfd2e9;
+  --accent-color: #365aaa;
+
+  /* Folder Color */
+  --folder-color: #a7a6a6d0;
+  --folder-color-light: #afafafd0;
+
+  /* Input Box Color */
+  --input-box-bg: #c2c2c7;
+  --input-box-border: #b3b4b8;
+  --input-box-border-focus: #959699;
+
+  /* Scrollbars Color */
+  --scrollbar-thin-thumb: transparent;
+  --scrollbar-thin-track: transparent;
+  --scrollbar-auto-thumb: #a0a0a0af;
+  --scrollbar-auto-thumb-hover: #77777785;
+  --scrollbar-auto-track: transparent;
+  --scrollbar-auto-scrollbar-color-thumb: var(--scrollbar-auto-thumb);
+  --scrollbar-auto-scrollbar-color-track: var(--scrollbar-auto-track);
+
+  /* Chat Box Color */
+  --channeltextarea-background: var(--background-secondary);
+  --channeltextarea-background-hover: var(--background-tertiary);
+}
+
+.scroller-lynW5A,
+.list-17lzo8,
+.categoryHeader-O1zU94 {
+    background-color: #1a1b26;
+}
+.selectable-3dP3y-:hover {
+    background-color: #333549;;
+}
+.selectable-3dP3y-:focus-within {
+    background-color: #333549;;
+}
+.message-2qnXI6:not(:nth-last-child(2)) {
+  animation: message-slide-2 1s ease;
+}
+.message-2qnXI6:nth-last-child(2) {
+  animation: message-slide 0.5s ease;
+}
+@keyframes message-slide {
+  from {
+    transform: translateX(-1080px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+@keyframes message-slide-2 {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+.theme-dark .container-3ayLPN{
+    background-color: #1a1b26;
+}
+.theme-dark .option-96V44q.selected-rZcOL-:hover {
+    background-color: #27293b;
+}
+.messagesWrapper-1sRNjr .scrollerInner-2YIMLh {
+  animation: chat-slide 0.5s ease;
+}
+@keyframes chat-slide {
+  from {
+    transform: translateY(-1080px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+.sprite-2iCowe {
+    background: url("https://cdn.discordapp.com/attachments/542030029861814284/806284153485000764/Pepe.png");
+}
+:root {
+--watermark-text: "Tokyo";
+--watermark-version: var(--version);
+--watermark-text-top: 2px;
+--watermark-text-left: -1px;
+--watermark-gradient: 270deg, rgb(255, 255, 255), rgb(0, 76, 255);
+}
+@keyframes Gradient { 0%{background-position:0 50%} 50%{background-position:100% 50%} 100%{background-position:0 50%} }
+.wordmark-2iDDfm:after{content:var(--watermark-text);font-size:20px;font-weight:700;position:absolute;width:4000px;top:7px;color:var(--background-accent);margin-left:var(--watermark-text-left);font-family:Discord}
+.wordmark-2iDDfm > svg{width:0}
+#app-mount .titleBar-AC4pGV{z-index:5;background-color:var(--background-secondary);border-radius:var(--titlebar-borders-radius)!important;margin-top:var(--titlebar-borders-radius-top)!important;margin-bottom:var(--titlebar-borders-radius-bottom)!important;margin-right:var(--titlebar-borders-radius-right)!important;margin-left:var(--titlebar-borders-radius-left)!important;padding-top:0}
+    #app-mount .titleBar-AC4pGV .wordmark-2iDDfm svg{width:0}
+    #app-mount .titleBar-AC4pGV .wordmark-2iDDfm::after{content:var(--watermark-text);position:absolute;font-family:Discord;background:linear-gradient(var(--watermark-gradient));animation:Gradient 4s ease infinite;-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;background-size:200% 200%;font-weight:600;top:var(--watermark-text-top)}
+/* Discord Message box */
+:root {
+    --color-brand-lighter: #4373c5;
+}
+.input-cIJ7To,
+.scrollableContainer-2NUZem {
+    background-color: #12131c;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    border: 1px solid transparent;
+    outline: none;
+}
+.input-cIJ7To:hover,
+.scrollableContainer-2NUZem:hover {
+    border-color: #4373c5;
+    background-color: #12131c;
+    box-shadow: 0px 0px 5px 0px rgb(69, 69, 69);
+}
+.input-cIJ7To:focus-within,
+.scrollableContainer-2NUZem:focus-within {
+    background-color: #1d1f2d;
+    border-color: var(--color-brand-lighter);
+}
+.scrollableContainer-2NUZem {
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
